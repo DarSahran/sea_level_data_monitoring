@@ -35,6 +35,6 @@ ENV/
 *.nc
 *.csv
 !sea_level_data_monthly.csv
-
+!sea_level_data.csv
 # Logs
 *.log 
