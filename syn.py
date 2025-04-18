@@ -16,7 +16,7 @@ stations = [
 ]
 
 # Date range
-start, end = '2020-01-01', '2024-12-31'
+start, end = '2015-01-01', '2024-12-31'
 dates = pd.date_range(start=start, end=end, freq='D')
 n = len(dates)
 
@@ -87,4 +87,5 @@ csv_path = 'sea_level_global_extended.csv'
 df_extended.to_csv(csv_path, index=False)
 
 # Display preview
-import ace_tools as tools; tools.display_dataframe_to_user(name="Extended Global Sea Level Data Preview", dataframe=df_extended.head())
+print("Extended Global Sea Level Data Preview:")
+print(df_extended.head())

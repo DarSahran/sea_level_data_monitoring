@@ -32,10 +32,6 @@ ENV/
 *.swo
 
 # Data files
-*.nc
-*.csv
-!sea_level_data_monthly.csv
-!sea_level_data.csv
-!sea_level_global_extended.csv
+
 # Logs
 *.log 
